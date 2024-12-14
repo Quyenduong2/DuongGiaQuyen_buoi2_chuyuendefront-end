@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 0.872rem;
+        }
+
+       
+
+        header {
+            line-height: 1;
+        }
+
+        main {
+            width: 100%;
+        }
+
+        .form-group {
+            width: 33%;
+            
+        }
+
+        .form-group input {
+            margin-bottom: 10px;
+            background-color: rgb(250 250 250);
+            padding: 0.60rem 0.75rem;
+            border: none;
+        }
+
+        .form-group a {
+            text-decoration: none;
+        }
+
+        form span {
+            margin-left: 10px;
+        }
+
+        main button {
+            text-align: center;
+            background-color: #1816ef;
+            background-image: linear-gradient(151deg, #1816ef 0%, #7157fb 100%);
+
+        }
+
+        .form-group label {
+            color: dimgray;
+            margin-bottom: 5px;
+        }
+
+        input::placeholder {
+            color: dimgray;
+        }
+
+        header h4 {
+            font-weight: 700;
+        }
+
+        section {
+            background-image: url(./image\ copy.png);
+            background-repeat: no-repeat;
+            object-fit: cover;
+            background-position: 100%;
+            background-size: contain;
+            width: 100%;
+        }
+    </style>
+</head>
+
+
+<body>
+    <section>
+        <header class="container-lg">
+            <!-- place navbar here -->
+            <h2 class="text-primary">LOGO</h2>
+            <h4>Tạo website</h4>
+            <p>Nhập thông tin để tạo website của riêng bạn</p>
+        </header>
+        <main class="container-lg">
+            <form action="" method="post" onsubmit="event.preventDefault()">
+                <div class="form-group">
+                    <label for="name">Họ và tên:</label>
+                    <input placeholder="Nhập họ và tên" type="text" class="form-control" id="name" name="name" required>
+                    <label for="">Email:</label>
+                    <input placeholder="@gmail.com" type="email" class="form-control" id="email" name="email" required>
+                    <label for="sdt">Số điện thoại</label>
+                    <input placeholder="*******" type="text" class="form-control" id="sdt" name="sdt" required>
+                    <label for="name-shop">Tên cửa hàng:</label>
+                    <input placeholder="Tạp hóa số 1" type="text" class="form-control" id="name-shop" name="name-shop"
+                        required>
+                    <label for="link">Link rút gọn website:</label>
+                    <input placeholder="www.vuawebnhanh.com/w/Taphoaso1" type="text" class="form-control" id="link"
+                        name="link" required>
+                    <input type="checkbox" name="" id=""><span>Tôi đồng ý với <a href="">Quy định sử dụng</a> và <a
+                            href="">Chính sách bảo mật</a> của Vua Web Nhanh</span>
+                    <div class="text-center py-3">
+                        <button class="btn text-white rounded-5 px-4 py-2">Tạo ngay</button>
+                    </div>
+                </div>
+
+            </form>
+
+        </main>
+        <footer>
+            <!-- place footer here -->
+        </footer>
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

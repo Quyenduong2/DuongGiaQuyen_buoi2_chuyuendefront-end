@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Montserrat';
+        }
+
+
+
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+
+        header h1 {
+            font-size: 70px;
+            font-weight: 700;
+            max-width: 55%;
+            margin-left: 12%;
+
+        }
+
+        .header_container {
+            position: relative;
+            padding: 60px 0;
+        }
+
+        .background_container {
+            position: absolute;
+            top: 0;
+            left: 0;
+            /* background-image: url(./b2.png); */
+            /* background-repeat: no-repeat; */
+            /* background-size: cover; */
+            /* background-position: 100% 50%; */
+            z-index: -1;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .background_container img {
+            width: 100%;
+            height: 100vh;
+        }
+
+        .block_info {
+            font-family: 'Poppins';
+            font-size: 18px;
+            font-weight: 300;
+            line-height: 1.6;
+            max-width: 55%;
+            margin-left: 12%;
+        }
+
+        .block_content {
+            margin-top: 120px;
+            display: flex;
+        }
+
+
+        .left {
+            width: 25%;
+        }
+
+        .right {
+            width: 75%;
+        }
+
+        .box_right {
+            display: flex;
+            padding: 40px 80px;
+            border-radius: 144px;
+            background: linear-gradient(142deg, rgba(255, 255, 255, 0.30) 0%, rgba(255, 255, 255, 0.18) 100%);
+        }
+
+        .box_right .card_info {
+            width: 33, 3%;
+            padding: 0 10px;
+            font-size: 18px;
+        }
+
+        header hr {
+            width: 20%;
+            border: 1.5px solid black;
+            margin: 10px 0;
+        }
+
+        /* //body  */
+
+        .container_body {
+            margin-top: 30px;
+            background-color: #f5f5fd;
+        }
+
+        .box_content {
+            width: 90%;
+            margin: auto;
+        }
+
+        .name h1 {
+            font-size: 70px;
+            font-weight: 700;
+            padding-bottom: 50px;
+        }
+
+        .box_item {
+            display: flex;
+        }
+
+        .box_item .card_item {
+            padding: 0 10px;
+        }
+
+        .box_item .card_item .title {
+            color: rgba(37, 37, 37, 0.55);
+            font-size: 30px;
+            margin-bottom: 10px;
+
+        }
+
+        .box_item .card_item .info_item {
+            color: rgba(37, 37, 37, 0.55);
+
+        }
+
+        .box_item .card_item .picture img {
+            width: 100%;
+        }
+
+        .form-bg {
+            background-color: #ffffff;
+            width: 100%;
+            margin-top: 50px;
+            padding: 10px;
+
+        }
+
+        .form_contact {
+            border-radius: 20px;
+            border: none;
+            box-shadow: 0px 0px 5px rgb(15, 15, 15, 0.5);
+            padding: 35px 20px;
+            width: 95%;
+            margin: auto;
+        }
+
+        .box_content_form {
+            display: flex;
+
+        }
+
+        .form_contact h3 {
+            color: #3f88ae;
+        }
+
+        .form_contact .left {
+            width: 50%;
+        }
+
+        .form_contact .right {
+            width: 50%;
+        }
+
+        .form-group label {
+            display: inline-block;
+        }
+
+        .form-group input::placeholder {
+            /* color: #f5f5fe; */
+        }
+
+        .form-group input {
+            margin-bottom: 10px;
+            background-color: #f4f4fb;
+            padding: 0.8rem 0.8rem;
+            border: none;
+            display: block;
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .form-group label {
+            color: dimgray;
+            margin-bottom: 5px;
+        }
+
+        .form-group textarea {
+            width: 100%;
+            padding: 10px 15px;
+            border-radius: 10px;
+            background-color: #f4f4fb;
+            border: none;
+        }
+
+
+
+        .form_contact .title_contact {
+            padding: 10px 0;
+        }
+
+        .btn {
+            width: 100%;
+            padding: 10px;
+            background-color: #3f88ae;
+            color: white;
+            border: none;
+        }
+
+        .box_content_form {
+            display: flex;
+            align-items: center;
+        }
+
+
+        .box_content_form .right img {
+            width: 45%;
+        }
+
+        .box_content_form .logo {
+            display: flex;
+            flex-direction: column;
+            padding: 15px 20px;
+            font-size: 18px;
+            font-weight: 500;
+        }
+
+        .box_content_form .logo img {
+            width: 30px;
+            margin-right: 8px;
+        }
+
+        .box_content_form a {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+            color: black;
+            margin: 5px 0;
+            padding: 0 15px;
+        }
+
+        .box_content_form .pirtuc {
+            text-align: center;
+        }
+
+        /* OREM  */
+
+        .orem_row {
+            width: 100%;
+            margin-top: 20px;
+            display: flex;
+        }
+
+        .orem_row_card {
+            width: 25%;
+            margin: 0 10px;
+            border: 1px solid rgb(127, 126, 126,0.2);
+        }
+
+        .bg-card-inside{
+            background-color: #ffffff;
+            width: 75%;
+            margin: -2px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header_container ">
+        <div class="container">
+            <div class="background_container">
+                <img src="./b2.png" alt="">
+            </div>
+            <h1>Interior design</h1>
+            <div class="block_info">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu
+                eget.
+                Et integer facilisi eget.
+            </div>
+            <div class="block_content">
+                <div class="left">
+                </div>
+                <div class="right">
+                    <div class="box_right">
+                        <div class="card_info">
+                            <h3>5.8</h3>
+                            <hr>
+                            <div class="title_right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper
+                                habitant arcu eget.
+                            </div>
+                        </div>
+                        <div class="card_info">
+                            <h3>5.8</h3>
+                            <hr>
+                            <div class="title_right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper
+                                habitant arcu eget.
+                            </div>
+                        </div>
+                        <div class="card_info">
+                            <h3>5.8</h3>
+                            <hr>
+                            <div class="title_right">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper
+                                habitant arcu eget.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <div class="container_body">
+            <div class="box_content">
+                <div class="name">
+                    <h1>HƯƠNG LIỆU</h1>
+                </div>
+                <div class="box_item">
+                    <div class="card_item">
+                        <div class="title">CAM BERGAMOT</div>
+                        <div class="info_item">
+                            Bergamot có nguồn gốc từ bergomotta trong tiếng Ý, có nguồn gốc từ Bergamo, một thị trấn ở
+                            Italy. Tinh dầu hương cam bergamot có mùi thơm ngọt ngào, nhẹ nhàng và quyến rũ,
+                            có thể làm giảm sự căng thẳng của con người.
+                        </div>
+                        <div class="picture">
+                            <img src="./lemon.png" alt="Cam Bergamot">
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="title">CAM BERGAMOT</div>
+                        <div class="info_item">
+                            Bergamot có nguồn gốc từ bergomotta trong tiếng Ý, có nguồn gốc từ Bergamo, một thị trấn ở
+                            Italy. Tinh dầu hương cam bergamot có mùi thơm ngọt ngào, nhẹ nhàng và quyến rũ,
+                            có thể làm giảm sự căng thẳng của con người.
+                        </div>
+                        <div class="picture">
+                            <img src="./wood.png" alt="Cam Bergamot">
+                        </div>
+                    </div>
+                    <div class="card_item">
+                        <div class="title">CAM BERGAMOT</div>
+                        <div class="info_item">
+                            Bergamot có nguồn gốc từ bergomotta trong tiếng Ý, có nguồn gốc từ Bergamo, một thị trấn ở
+                            Italy. Tinh dầu hương cam bergamot có mùi thơm ngọt ngào, nhẹ nhàng và quyến rũ,
+                            có thể làm giảm sự căng thẳng của con người.
+                        </div>
+                        <div class="picture">
+                            <img src="./latra.png" alt="Cam Bergamot">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //Orem -->
+        <div style="width: 90%;margin: auto; text-align: center; padding-top: 20px;">
+            <h3 style="color: #3f88ae;">Orem ipsum dolor sit amet</h3>
+            <div style="width: 100%; margin: 10px 0;">
+                <hr style="width: 25%; border: 1px thin #e8e8e8; margin: auto; margin-bottom: 1px;">
+                <hr style="width: 15%; border: 1px thin #e8e8e8; margin: auto;">
+            </div>
+            <div class="orem-title" style="font-size: 16px;
+            line-height: 1.6;
+            max-width: 750px;
+            color: #696868;
+            text-align: center;
+            margin: auto;
+            ">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus in libero risus semper habitant arcu
+                eget. Et integer facilisi eget.
+            </div>
+            <div class="orem_row">
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+15</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Orem ipsum dolor sit amet</div>
+                        <img style="height: 30px;" src="./likehuychuong.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+60</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Orem ipsum dolor sit amet</div>
+                        <img style="height: 30px;" src="./creator.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+100</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Orem ipsum dolor sit amet</div>
+                        <img style="height: 30px;" src="./people.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+200K</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Orem ipsum dolor sit amet</div>
+                        <img style="height: 30px;" src="./comunity.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- //DMAXX  -->
+        <div style="width: 90%;margin: auto; text-align: center; padding-top: 30px;">
+            <h3 style="color: #3f88ae;max-width: 400px; margin: auto;">DMAXX ENERGY FORMULA - NO SUGAR ADDED DEMO</h3>
+            <div style="width: 100%; margin: 10px 0;">
+                <hr style="width: 25%; border: 1px thin #e8e8e8; margin: auto; margin-bottom: 1px;">
+                <hr style="width: 15%; border: 1px thin #e8e8e8; margin: auto;">
+            </div>
+            <div class="orem-title" style="font-size: 16px;
+            line-height: 1.6;
+            max-width: 580px;
+            color: #696868;
+            text-align: center;
+            margin: auto;
+            ">
+                Cung cấp năng lượng, axit amin, vitamin, khoáng chất từ thiên nhiên giúp tăng sự tỉnh táo, tập trung, hứng khởi, giảm stress, đẹp da, cơ thể săn chắc, khoẻ mạnh, sức sống mới mỗi ngày.
+            </div>
+            <div class="orem_row">
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">X80</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">
+                            Lần Vitamin C so với cam và chanh
+                            </div>
+                        <img style="height: 30px;" src="./likehuychuong.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">X6</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Lần Cafein so với Cà Phê</div>
+                        <img style="height: 30px;" src="./creator.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+20</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Dưỡng chất bổ sung</div>
+                        <img style="height: 30px;" src="./people.png" alt="">
+                    </div>
+                </div>
+                <div class="orem_row_card">
+                    <div class="bg-card-inside">
+                        <div style="font-size: 34px;font-weight: 800;">+100</div>
+                        <div style="margin: 8px 0px;color: rgb(103, 102, 102);" class="title-orem">Khách hàng tin dùng
+                        </div>
+                        <img style="height: 30px;" src="./comunity.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div>
+
+        </div>
+
+
+        <div class="form-bg">
+            <div class="form_contact">
+                <h3>LIÊN HỆ VỚI CHÚNG TÔI NGAY ĐỂ ĐƯỢC TƯ VẤN MIỄN PHÍ</h3>
+                <div class="box_content_form">
+                    <div class="left">
+                        <div class="title_contact">
+                            Chúng tôi ở đây vì bạn, hãy để lại thông tin liên lạc để chúng tôi có thể hỗ trợ bạn tốt
+                            nhất
+                        </div>
+                        <form action="" method="post" onsubmit="event.preventDefault()">
+                            <div class="form-group">
+                                <div>
+                                    <label for="name">Họ và tên:</label>
+                                    <input placeholder="Nhập họ và tên" type="text" class="form-control" id="name"
+                                        name="name" required>
+                                </div>
+                                <div>
+                                    <label for="sdt">Số điện thoại</label>
+                                    <input placeholder="*******" type="text" class="form-control" id="sdt" name="sdt"
+                                        required>
+                                </div>
+                                <textarea placeholder="nội dung" name="" id="" rows="10"></textarea>
+                                <div class="text-center py-3">
+                                    <button class="btn btn-color">Nhận tư vấn miễn phí</button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="right">
+                        <div class="pirtuc">
+                            <img src="./footer.png" alt="">
+                        </div>
+                        <div class="logo">
+                            <a href="#">
+                                <img src="./location-img.png" alt="location">
+                                Địa chỉ abc TP HCM
+                            </a>
+                            <a href="#">
+                                <img src="./phone.png" alt="location">
+                                0972 123 456
+                            </a>
+                            <a href="#">
+                                <img src="./email.png" alt="location">
+                                hotro@gmail.com
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+
+
+
+
+</body>
+
+</html>
