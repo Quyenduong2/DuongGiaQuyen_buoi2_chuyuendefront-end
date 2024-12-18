@@ -1,0 +1,944 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "roboto", arial, helvetica;
+  scroll-behavior: smooth;
+}
+
+.p-top {
+  padding-top: 100px;
+}
+
+.m-top {
+  margin-top: 10px;
+}
+
+.m-bottom {
+  margin-bottom: 10px;
+}
+/* //----- header css ------- */
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  margin: auto;
+  border-bottom: 5px solid #bf9f68;
+  background-color: #fbf7ef;
+  z-index: 1000;
+}
+
+.navbar {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 0;
+}
+
+.navbar .logo {
+  width: auto;
+}
+
+.navbar .logo img {
+  width: 224px;
+}
+
+.nav-list {
+  width: 100%;
+  align-items: center;
+}
+
+.nav-list ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  list-style: none;
+}
+
+.nav-list ul li {
+  padding: 15px 15px;
+}
+
+.nav-list ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  font-family: "arial";
+}
+
+.nav-list .list-item .active > a {
+  color: red;
+}
+
+.nav-list .list-item a:hover {
+  color: red;
+  transition: all 0.3s;
+}
+
+.navbar .search-bar .btn {
+  padding: 2px 4px;
+  border-top: none;
+  border-bottom: none;
+  background-color: transparent;
+}
+
+.navbar .search-bar i {
+  font-size: 20px;
+  font-weight: 900;
+}
+
+/* //----- header css ------- */
+
+/*--------- banner  ---------*/
+
+.container {
+  width: 100%;
+}
+
+.container .row {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  background-color: #ffffff;
+}
+
+.container .row .left {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.container .row .left img {
+  width: 100%;
+}
+
+.container .row .right {
+  width: 50%;
+  padding: 0 15px;
+}
+
+.right .box-content .title span {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.right .box-content .name {
+  margin: 30px 0;
+}
+
+.right .box-content .name span {
+  color: #086050;
+  font-size: 145%;
+  text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.right .box-content .info {
+  width: 100%;
+  font-size: 128%;
+  color: #999;
+  line-height: 1.5;
+}
+
+.right .box-content .btn {
+  padding: 12px 22px 12px 22px;
+  background: #ffffff00;
+  color: #086050;
+  border: 2px solid #086050;
+  font-weight: 500;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  font-size: 120%;
+  margin-top: 50px;
+}
+
+.right .box-content .btn:hover {
+  background: #086050;
+  color: #ffffff;
+}
+
+/*--------- banner  ---------*/
+
+/* --------- Sản phẩm mới ----------  */
+.product-carousel {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #faf7f0;
+  margin: 100px 0 0 0;
+}
+.product-carousel h2 {
+  margin: 22px 0px 20px;
+  font-size: 250%;
+  text-align: center;
+  color: #086050;
+  font-weight: 700;
+}
+
+.product-carousel .box-carousel {
+  width: 90%;
+  margin: auto;
+}
+
+.product-carousel .card-info h3 a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.product-carousel .card-info p {
+  font-weight: 900;
+  color: rgb(225, 44, 20);
+  font-size: 16px;
+}
+
+.product-carousel .card {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 30px;
+}
+
+.product-carousel .card:hover {
+  border: 1px solid rgb(225, 44, 20);
+}
+
+.product-carousel .card .card-info {
+  padding: 14px 20px 6px;
+}
+
+.product-carousel .card .card-info .rating-star {
+  color: #999;
+}
+
+.product-carousel .card img {
+  border-radius: 30px;
+}
+.product-carousel .card .card-info h3 {
+  padding: 10px 0;
+}
+
+.product-carousel .card .card-info .logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 10px 0;
+  color: rgb(225, 44, 20);
+}
+
+.product-carousel .card .card-info .logo i {
+  font-size: 21px;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #086050 !important;
+  width: 20px;
+  border-color: #086050 !important;
+  transition: all 0.3s;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  margin: 5px 2px !important;
+  transition: all 0.3s;
+}
+
+/* --------- Sản phẩm mới ----------  */
+
+/* <!-- Thưởng thức Burger   --> */
+.burger {
+  width: 100%;
+  padding-top: 50px;
+  background-color: #faf7f0;
+}
+
+.burger-box {
+  width: 90%;
+  margin: auto;
+}
+
+.burger-box h3 {
+  text-align: center;
+}
+
+.burger-box h1 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 200%;
+  margin: 15px 0;
+  color: #086050;
+}
+
+.box-product {
+  display: flex;
+  text-align: center;
+}
+
+.box-product .left {
+  width: 25%;
+}
+
+.box-product .left {
+  flex-direction: column;
+}
+
+.box-product .left .beef {
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.box-product .right {
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box-product .right .vegetable {
+  margin-top: 20px;
+  margin-bottom: 200px;
+}
+
+.box-product .mid {
+  width: 50%;
+}
+
+.box-product .mid img {
+  width: 100%;
+}
+
+/* <!-- Thưởng thức Burger   --> */
+
+.list3 {
+  max-width: calc(100% - 15%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-list3 {
+  display: flex;
+  padding-bottom: 100px;
+  padding-top: 100px;
+}
+
+.list3-1 {
+  background-image: url(./image/burger-giaohang.png);
+  height: 263px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.list3-2 {
+  background-image: url(./image/khoaitaychien-giaohang.png);
+  height: 263px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+.list3-3 {
+  background-image: url(./image/myigiaoang.png);
+  height: 263px;
+  width: 400px;
+  background-size: cover;
+  background-position: center;
+  margin: 10px;
+}
+
+.list3-text {
+  padding: 70px 50px;
+}
+
+.list3-text span {
+  font-size: 30px;
+  color: white;
+  font-weight: 900;
+}
+
+.list3-text p {
+  font-size: 18px;
+  color: white;
+  font-weight: 200;
+  width: 120px;
+}
+
+.list3-text a {
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+  margin-top: 20px;
+}
+
+.listHover:hover {
+  opacity: 0.5;
+}
+
+.xemThem {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.xemThem a {
+  align-items: center;
+  justify-content: center;
+  background-color: #086050;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: 600;
+}
+
+.giaoHang {
+  max-width: calc(100% - 15%);
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  margin-top: 100px;
+}
+
+.img-giaoHang {
+  width: 615px;
+  height: 524px;
+}
+
+.giaoHang .left {
+  width: 50%;
+}
+
+.giaoHang .right {
+  width: 50%;
+}
+
+.main-giaoHang p {
+  color: #222222;
+  font-size: 18px;
+}
+
+.main-giaoHang h1 {
+  font-weight: 600;
+  font-size: 200%;
+  margin: 15px 0;
+  color: #086050;
+}
+
+.main-giaoHang h1 {
+  margin: 25px 0;
+}
+
+.main-giaoHang > span {
+  line-height: 1.6;
+  color: #222222;
+  font-size: 17.4px;
+  margin-top: 50px;
+}
+
+.list-giaoHang {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.list-giaoHang div {
+  display: flex;
+  padding: 23px 30px 23px 10px;
+  background-color: #faf7f0;
+  border-radius: 5px;
+}
+
+.list-giaoHang table td {
+  padding: 0 8px 20px 0px;
+}
+
+.list-giaoHang table td div span {
+  color: #bf9f68;
+}
+/* --------------------- box 1*/
+
+.product-sanpham {
+  width: 100%;
+  padding: 40px 0;
+  background-color: #faf7f0;
+  margin: 100px 0 0 0;
+}
+.product-special .product-special-box-1 {
+  width: 90%;
+  display: flex;
+  margin: auto;
+}
+
+.product-special .product-special-box-1 .card {
+  width: 33%;
+}
+
+.product-special .product-special-box-1 .card-info p {
+  font-weight: 900;
+  color: rgb(225, 44, 20);
+  font-size: 16px;
+}
+
+.product-special .product-special-box-1 .card {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 30px;
+  margin: 0 5px;
+  position: relative;
+}
+
+.product-special .product-special-box-1 .card:hover {
+  border: 1px solid rgb(225, 44, 20);
+}
+
+.product-special .product-special-box-1 .card .card-info {
+  padding: 14px 20px 6px;
+}
+
+.product-special .product-special-box-1 .card .card-info .rating-star {
+  color: #999;
+}
+
+.product-special .product-special-box-1 .card img {
+  width: 100%;
+  border-radius: 30px;
+}
+.product-special .product-special-box-1 .card .card-info h3 {
+  padding: 10px 0;
+}
+
+.product-special .product-special-box-1 .card .card-info .logo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  margin: 0 20px 10px 0;
+  color: rgb(225, 44, 20);
+}
+
+.product-special .product-special-box-1 .card .card-info .logo i {
+  font-size: 21px;
+}
+
+.card-info h3 a {
+  text-decoration: none;
+  color: #000000;
+  font-size: 15px;
+}
+
+.card-info h3 a:hover {
+  color: #086050;
+}
+
+.product-sanpham h2 {
+  text-align: center;
+  font-size: 243%;
+  margin-bottom: 50px;
+  font-weight: 600;
+}
+
+.product-sanpham h2 a:hover {
+  color: #086050;
+  cursor: pointer;
+}
+
+.product-special-box-2 {
+  margin-top: 50px;
+}
+
+.view-all {
+  text-align: center;
+  margin: 30px 0px 20px 0;
+}
+
+.view-all a {
+  color: #fff;
+  font-size: 16px;
+  display: inline-block;
+  background: #086050;
+  border-radius: 5px;
+  padding: 10px 25px 10px 25px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.view-all a:hover {
+  background: red;
+}
+
+/* ------------------ */
+.list-giaoHang img {
+  height: 16px;
+  width: 16px;
+  color: #bf9f68;
+  margin-right: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.dauBep {
+  background-color: #fbf7ef;
+  padding: 100px 0px;
+}
+
+.main-dauBep1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-dauBep1 span {
+  font-size: 18px;
+  color: #222222;
+}
+
+.main-dauBep1 a {
+  font-size: 35px;
+  color: #222222;
+  font-weight: 900;
+  text-transform: uppercase;
+  height: 100px;
+  width: 100px;
+}
+
+.main-dauBep1 a {
+  padding: 0;
+}
+
+.item-dauBep {
+  text-align: center;
+  padding: 0 20px;
+}
+.item-dauBep a {
+  text-decoration: none;
+  font-weight: 600;
+  color: black;
+}
+
+.item-dauBep a:hover {
+  color: #086050;
+}
+.main-dauBep {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: calc(100% - 15%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.list-dauBep {
+  flex: 3;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.list-dauBep .box-title {
+  padding: 15px 0;
+}
+
+.mr-20 {
+  margin-right: 20px;
+}
+
+.ml-30 {
+  margin-left: 30px;
+}
+
+.list-dauBep span {
+  font-size: 14;
+  color: #222222;
+  position: relative;
+}
+.danhdau {
+  position: relative;
+}
+
+.danhdau::after {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 1px;
+  height: 17px;
+  background-color: #086050;
+  left: -10px;
+  top: 0;
+}
+
+.danhdau::before {
+  position: absolute;
+  content: " ";
+  display: block;
+  width: 2px;
+  height: 30px;
+  background-color: #086050;
+  left: -16px;
+  top: 0;
+}
+
+.list-dauBep p {
+  font-size: 18px;
+  color: #086050;
+  font-weight: 500;
+}
+
+.list-dauBep img {
+  width: 100%;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.list-dauBep img:hover {
+  filter: brightness(50%);
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.img-capsicum {
+  animation: capsicum 3s infinite;
+  margin-left: 50px;
+}
+
+@keyframes capsicum {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(15);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  75% {
+    transform: translateY(-15);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.img-tomato {
+  animation: tomato 3s infinite;
+  margin-right: 20px;
+}
+
+@keyframes tomato {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(15);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateX(-15);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.review {
+  display: flex;
+  padding: 50px 0;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+}
+
+.main-review h4 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.main-review h2 {
+  font-size: 30px;
+  font-weight: 800;
+  color: #086050;
+  text-transform: uppercase;
+}
+
+.avatar {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  color: #bf9f68;
+}
+
+.avatar p {
+  color: #bf9f68;
+  font-size: 24px;
+  font-weight: 500;
+  margin: 20px 0 10px 0;
+}
+
+.avatar span {
+  font-size: 14px;
+}
+
+.avatar img {
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.main-review .star {
+  margin: 20px 0;
+}
+.main-review .star i {
+  color: #edc46b;
+  font-size: 24px;
+}
+
+/* .star i{
+    display: inline-block;
+    background-image: url(star1.png);
+    background-size: contain;
+    height: 27px;
+    width: 27px;
+  } */
+
+.binhLuan p {
+  font-size: 142%;
+  font-weight: 500;
+  font-style: italic;
+  line-height: 36.33px;
+  padding: 0px 100px;
+  color: #707070;
+}
+
+.chili {
+  position: absolute;
+  left: 5%;
+  top: 40%;
+  animation: chili 3s infinite;
+}
+
+@keyframes chili {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(15);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  75% {
+    transform: translateY(-15);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.shape {
+  position: absolute;
+  right: 5%;
+  top: 5%;
+  animation: shape 3s infinite;
+}
+
+@keyframes shape {
+  0% {
+    transform: translateX(0px);
+  }
+  25% {
+    transform: translateX(15);
+  }
+  50% {
+    transform: translateX(20px);
+  }
+  75% {
+    transform: translateX(-15);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.shape5 {
+  position: absolute;
+  right: 5%;
+  bottom: 5%;
+  animation: shape5 3s infinite;
+}
+
+@keyframes shape5 {
+  0% {
+    transform: translateY(0px);
+  }
+  25% {
+    transform: translateY(15);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+  75% {
+    transform: translateY(-15);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.datBan {
+  background-color: #fbf7ef;
+  padding: 100px 0px;
+}
+
+.datBan1 {
+  background-image: url(./image/bg-datban.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-datBan {
+  max-width: calc(100% - 15%);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form-1 div h2 {
+  padding: 50px 0px 0px 0px;
+  color: white;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+
+.input-main input {
+  width: 500px;
+  margin: 20px 0px;
+  padding: 20px 10px;
+  border-radius: 15px;
+}
+
+.noiDung {
+  height: 100px;
+}
+
+.btn button {
+  margin: 0px 0px 100px 0px;
+  padding: 15px 50px;
+  font-size: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #086050;
+}
+
+.btn button:hover {
+  background-color: red;
+}
+
+.scroll-top{
+  position: fixed;
+  right: 40px;
+  bottom: 25px;
+  background-color: #086050;
+  border-radius: 50%;
+  padding: 8px 10px 8px 10px;
+  color: white;
+  font-size: 14px;
+}
