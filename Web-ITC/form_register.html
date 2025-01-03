@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng Ký Xét Tuyển Online</title>
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="./images/faviconitc.png" type="image/x-icon">
+
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="styleform.css">
+</head>
+
+<body>
+    <div class="container">
+        <a href="home.html"><img src="./images/itc-logo.png" width="100%" alt=""></a>
+        <h1>ĐĂNG KÝ XÉT TUYỂN ONLINE</h1>
+        <p class="hotline">Hotline/Zalo: 093 886 1080 - 097 500 5356</p>
+        <hr>
+        <form action="#" method="POST">
+            <h2>THÔNG TIN THÍ SINH</h2>
+            <div class="form-group">
+                <label for="ho-dem">Họ đệm *</label>
+                <input type="text" id="ho-dem" placeholder="Nhập họ đệm" required>
+            </div>
+            <div class="form-group">
+                <label for="ten">Tên *</label>
+                <input type="text" id="ten" placeholder="Nhập tên" required>
+            </div>
+            <div class="form-group">
+                <label for="gioi-tinh">Giới tính *</label>
+                <select id="gioi-tinh" required>
+                    <option value="">Chọn giới tính</option>
+                    <option value="nam">Nam</option>
+                    <option value="nu">Nữ</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ngay-sinh">Ngày sinh *</label>
+                <input type="date" id="ngay-sinh" required>
+            </div>
+            <div class="form-group">
+                <label for="noi-sinh">Nơi sinh *</label>
+                <select id="noi-sinh" required>
+                    <option value="">Chọn nơi sinh</option>
+                    <option value="">TP.HCM</option>
+                    <option value="">Khác</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dan-toc">Dân tộc *</label>
+                <select id="dan-toc" required>
+                    <option value="">Chọn dân tộc</option>
+                    <option value="">Kinh</option>
+                    <option value="">Hoa</option>
+                    <option value="">Khác</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dien-thoai">Điện thoại *</label>
+                <input type="text" id="dien-thoai" placeholder="Vui lòng nhập điện thoại" required>
+            </div>
+            <div class="form-group">
+                <label for="cmnd">Số CMND/CCCD *</label>
+                <input type="text" id="cmnd" placeholder="Nhập số CMND" required>
+            </div>
+            <div class="form-group">
+                <label for="ngay-cap">Ngày cấp CMND/CCCD *</label>
+                <input type="date" id="ngay-cap" required>
+            </div>
+            <div class="form-group">
+                <label for="noi-cap">Nơi cấp CMND/CCCD</label>
+                <input type="text" id="noi-cap" placeholder="(Nếu CCCD: ghi CỤC TRƯỞNG CỤC CẢNH SÁT...)">
+            </div>
+            <div class="form-group">
+                <label for="dia-chi">Địa chỉ *</label>
+                <input type="text" id="dia-chi"
+                    placeholder="Thí sinh cần ghi rõ số nhà, đường, Phường/Xã, Quận/Huyện, Tỉnh/Thành phố" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" placeholder="Thí sinh cần ghi chính xác email đang sử dụng" required>
+            </div>
+
+            
+            <h2>THÔNG TIN ĐĂNG KÝ</h2>
+            <div class="form-group">
+                <label for="he-dao-tao">Hệ đào tạo xét tuyển *</label>
+                <select id="he-dao-tao" required>
+                    <option value="">Chọn hệ đào tạo</option>
+                    <option value="">Cao Đẳng</option>
+                    <option value="">Liên Thông Cao Đẳng</option>
+                    <option value="">Liên Thông Đại Học ( Từ CĐ lên ĐH )</option>
+                    <option value="">Ngắn Hạn</option>
+                    <option value="">Trung Cấp</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="nganh-dang-ky">Ngành đăng ký xét tuyển *</label>
+                <select id="nganh-dang-ky" required>
+                    <option value="">Chọn ngành</option>
+                    <option value="">Thiết Kế Đồ Họa</option>
+                    <option value="">Truyền Thông Đa Phương Tiện</option>
+                    <option value="">Logistics</option>
+                    <option value="">Marketing</option>
+                    <option value="">Thương Mại Điện Tử</option>
+                    <option value="">Kế Toán</option>
+                    <option value="">Quản Trị Kinh Doanh</option>
+                    <option value="">Truyền Thông và Mạng Máy Tính</option>
+                    <option value="">Công Nghệ Kỹ Thuật Máy Tính</option>
+                    <option value="">Công Nghệ Thông Tin</option>
+                    <option value="">Lập Trình Máy Tính</option>
+                    <option value="">Thiết Kế Trang Web</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="hinh-thuc-hoc">Hình thức học *</label>
+                <select id="hinh-thuc-hoc" required>
+                    <option value="">Chọn hình thức học</option>
+                    <option value="">Lớp Ngày</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="dieu-kien">Điều kiện xét tuyển *</label>
+                <select id="dieu-kien" required>
+                    <option value="">Chọn điều kiện xét tuyển</option>
+                    <option value="">Đã Có Bằng Trung Cấp và Giấy chứng nhận văn hóa</option>
+                    <option value="">Đã có giấy chứng nhận và văn hóa</option>
+                    <option value="">Tốt Nghiệp TCCN</option>
+                    <option value="">Tốt Nghiệp TCN</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="ghi-chu">Ghi chú</label>
+                <textarea id="ghi-chu" placeholder="(Có thể nhập nếu cần)"></textarea>
+            </div>
+
+
+            <div class="checkbox-group d-flex align-items-center pt-5">
+                <h2>THÔNG TIN KHẢO SÁT</h2>
+                <p>Bạn biết ITC thông qua các kênh nào sao đây? <span class="required">(Có thể click chọn nhiều
+                        kênh) *</span></p>
+                <table>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><label>Website ITC</label></td>
+                        <td><input type="checkbox"></td>
+                        <td><label>Facebook</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><label>Người giới thiệu</label></td>
+                        <td><input type="checkbox"></td>
+                        <td><label>Tìm kiếm trên Google</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><label>Tư vấn dưới cơ</label></td>
+                        <td><input type="checkbox"></td>
+                        <td><label>Cẩm nang hướng nghiệp</label></td>
+                    </tr>
+                    <tr>
+                        <td><input type="checkbox"></td>
+                        <td><label>Tờ rơi</label></td>
+                        <td><input type="checkbox"></td>
+                        <td><label>Tin tức trên báo mạng</label></td>
+                    </tr>
+                </table>
+            </div>
+            <p class="disclaimer">
+                Tôi xin cam đoan những lời khai của tôi trên đăng ký online là đúng sự thật.
+                Nếu sai tôi hoàn toàn chịu trách nhiệm và bị xử lý theo Quy chế tuyển sinh hiện hành. <span
+                    class="required">*</span>
+            </p>
+
+            <div class="buttons">
+                <button type="submit" class="btn-primary">ĐĂNG KÝ NGAY</button>
+                <button type="button" class="btn-secondary">TRA CỨU ĐĂNG KÝ ONLINE</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

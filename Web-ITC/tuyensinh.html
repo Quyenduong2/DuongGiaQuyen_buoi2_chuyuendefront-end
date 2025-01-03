@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tuyển sinh</title>
+
+    <!-- favicon  -->
+    <link rel="shortcut icon" href="./images/faviconitc.png" type="image/x-icon">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+    <!-- Fontawesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- MY CSS  -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="gate-sv-itc">
+            <div class="container-lg">
+                <div class="row d-flex align-items-center">
+                    <!-- left  -->
+                    <div class="col-lg-4 col-md-4 col-sm-4">
+                        <div class="title-header-itc">
+                            <a href="home.html">
+                                <span>Cao Đẳng Công Nghệ Thông Tin ITC - TP.HCM</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- right  -->
+                    <div class="col-lg-8 col-md-8 col-sm-8">
+                        <div class="login-sv text-end">
+                            <a href="#" target="_blank">
+                                <span>Cổng thông tin Sinh Viên</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg bg-body-light">
+            <div class="container-lg">
+                <button class="navbar-toggler ms-auto mt-3" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <div class="row text-center">
+                        <div class="col-lg-4">
+                            <a href="home.html" class="logo">
+                                <img src="./images/itc-logo.png" alt="#" title="Cao Đẳng Công Nghệ Thông Tin ITC">
+                            </a>
+                        </div>
+                        <div class="col-lg-8">
+                            <ul class="navbar-nav mb-2 mb-lg-0">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Về ITC
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Tổng quan về ITC</a></li>
+                                        <li><a class="dropdown-item" href="#">Phòng - Khoa - Trung Tâm</a></li>
+                                    </ul>
+                                </li>
+
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Đào Tạo
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#caodang">Cao Đẳng</a></li>
+                                        <li><a class="dropdown-item" href="#caodang">Cao Đẳng 9+</a></li>
+                                        <li><a class="dropdown-item" href="#caodang">Trung Cấp</a></li>
+                                        <li><a class="dropdown-item" href="#caodang">Liên Thông</a></li>
+                                        <li><a class="dropdown-item" href="#caodang">Đào Tạo Song Bằng</a></li>
+                                    </ul>
+                                </li>
+
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="tuyensinh.html">Tuyển Sinh</a>
+                                </li>
+                                <!-- <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Tuyển Sinh
+                      </a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      </ul>
+                    </li> -->
+
+
+
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Sinh Viên Cần Biết
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Sổ Tay Sinh Viên</a></li>
+                                        <li><a class="dropdown-item" href="#">Cơ Hội Việc Làm</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Tuyển Dụng</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Liên Hệ</a>
+                                </li>
+
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- nghành đào tạo  -->
+    <section class="course-program">
+        <div class="container-lg">
+            <div class="block-title blue">
+                <span>Ngành Đào tạo</span>
+            </div>
+
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-caodang-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-caodang" type="button" role="tab" aria-controls="pills-caodang"
+                        aria-selected="true">Cao Đẳng</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-caodang9-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-caodang9" type="button" role="tab" aria-controls="pills-caodang9"
+                        aria-selected="false">Cao Đẳng 9+</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-trungcap-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-trungcap" type="button" role="tab" aria-controls="pills-trungcap"
+                        aria-selected="false">Trung Cấp</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-lienthong-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-lienthong" type="button" role="tab" aria-controls="pills-lienthong"
+                        aria-selected="false">Đào Tạo Liên Thông</button>
+                </li>
+                <li class="nav-item bg-danger" role="presentation">
+                    <a href="form_register.html" class="nav-link text-white register-form" >Đăng Ký Xét Tuyển</a>
+                </li>
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+                <div class="tab-pane show active" id="pills-caodang" role="tabpanel" aria-labelledby="pills-caodang-tab"
+                    tabindex="0">
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                            <a href="https://itc.edu.vn/dao-tao/cao-dang/cong-nghe-thong-tin"
+                                                title="Công nghệ thông tin">
+                                                <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/14374/cntt.jpg"
+                                                    alt="Công nghệ thông tin">
+                                            </a>
+                                        </div>
+                                        <div class="txt">
+                                            <a class="headline blue"
+                                                href="https://itc.edu.vn/dao-tao/cao-dang/cong-nghe-thong-tin"
+                                                title="Công nghệ thông tin">Công nghệ thông tin</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/thiet-ke-do-hoa-1" title="Thiết kế đồ họa">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/938/1thi%E1%BA%BFt-k%E1%BA%BF-%C4%91%E1%BB%93-h%E1%BB%8Da.png" alt="Thiết kế đồ họa">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/thiet-ke-do-hoa-1" title="Thiết kế đồ họa">Thiết kế đồ họa</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/lap-trinh-may-tinh-1" title="Lập trình máy tính">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/14375/ltmt.jpg" alt="Lập trình máy tính">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/lap-trinh-may-tinh-1" title="Lập trình máy tính">Lập trình máy tính</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/thuong-mai-dien-tu-1" title="Thương mại Điện tử">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/940/1th%C6%B0%C6%A1ng-m%E1%BA%A1i-%C4%91i%E1%BB%87n-t%E1%BB%AD.png" alt="Thương mại Điện tử">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/thuong-mai-dien-tu-1" title="Thương mại Điện tử">Thương mại Điện tử</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/thiet-ke-trang-web-1" title="Thiết kế trang Web">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/939/1thi%E1%BA%BFt-k%E1%BA%BF-trang-web.png" alt="Thiết kế trang Web">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/thiet-ke-trang-web-1" title="Thiết kế trang Web">Thiết kế trang Web</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/truyen-thong-da-phuong-tien-1" title="Truyền thông Đa phương tiện">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/941/1truy%E1%BB%81n-th%C3%B4ng-%C4%91a-ph%C6%B0%C6%A1ng-ti%E1%BB%87n.png" alt="Truyền thông Đa phương tiện">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/truyen-thong-da-phuong-tien-1" title="Truyền thông Đa phương tiện">Truyền thông Đa phương tiện</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/quan-tri-kinh-doanh-quan-tri-digital-marketing-1" title="Quản trị Kinh doanh (Quản trị Digital Marketing)">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/936/1qu%E1%BA%A3n-tr%E1%BB%8B-kinh-doanh.png" alt="Quản trị Kinh doanh (Quản trị Digital Marketing)">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/quan-tri-kinh-doanh-quan-tri-digital-marketing-1" title="Quản trị Kinh doanh (Quản trị Digital Marketing)">Quản trị Kinh doanh (Quản trị Digital Marketing)</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang/marketing-1" title="Marketing">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/935/1marketing.png" alt="Marketing">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/marketing-1" title="Marketing">Marketing</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="box-item text-center d-flex justify-content-center">
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/cao-dang/ke-toan-1" title="Kế toán">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/14378/kt.jpg" alt="Kế toán">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/ke-toan-1" title="Kế toán">Kế toán</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/cao-dang/logistics-3" title="Logistics">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/933/logistics.png" alt="Logistics">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang/logistics-3" title="Logistics">Logistics</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane" id="pills-caodang9" role="tabpanel" aria-labelledby="pills-caodang9-tab"
+                    tabindex="0">
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang-9/tin-hoc-ung-dung" title="Tin học ứng dụng">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/948/1tin-h%E1%BB%8Dc-%E1%BB%A9ng-d%E1%BB%A5ng.png" alt="Tin học ứng dụng">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/tin-hoc-ung-dung" title="Tin học ứng dụng">Tin học ứng dụng</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang-9/ke-toan-doanh-nghiep" title="Kế toán doanh nghiệp">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/949/k%E1%BA%BF-to%C3%A1n.png" alt="Kế toán doanh nghiệp">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/ke-toan-doanh-nghiep" title="Kế toán doanh nghiệp">Kế toán doanh nghiệp</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang-9/thiet-ke-va-quan-ly-website" title="Thiết kế và quản lý Website">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/946/thi%E1%BA%BFt-k%E1%BA%BF-website.png" alt="Thiết kế và quản lý Website">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/thiet-ke-va-quan-ly-website" title="Thiết kế và quản lý Website">Thiết kế và quản lý Website</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/cao-dang-9/quan-tri-mang-may-tinh" title="Quản trị mạng máy tính">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/947/qu%E1%BA%A3n-tr%E1%BB%8B-m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh.png" alt="Quản trị mạng máy tính">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/quan-tri-mang-may-tinh" title="Quản trị mạng máy tính">Quản trị mạng máy tính</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="box-item text-center d-flex justify-content-center">
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/cao-dang-9/ky-thuat-sua-chua-lap-rap-may-tinh" title="Kỹ thuật sữa chữa và lắp ráp máy tính">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/945/k%C3%BD-thu%E1%BA%ADt-s%E1%BB%ADa-ch%E1%BB%AFa.png" alt="Kỹ thuật sữa chữa và lắp ráp máy tính">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/ky-thuat-sua-chua-lap-rap-may-tinh" title="Kỹ thuật sữa chữa và lắp ráp máy tính">Kỹ thuật sữa chữa và lắp ráp máy tính</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/cao-dang-9/cong-nghe-ky-thuat-dien-tu-truyen-thong-1" title="Công nghệ kỹ thuật điện tử, truyền thông">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/944/cnghe-ky-thuat-dt-tt.png" alt="Công nghệ kỹ thuật điện tử, truyền thông">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/cao-dang-9/cong-nghe-ky-thuat-dien-tu-truyen-thong-1" title="Công nghệ kỹ thuật điện tử, truyền thông">Công nghệ kỹ thuật điện tử, truyền thông</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane" id="pills-trungcap" role="tabpanel" aria-labelledby="pills-trungcap-tab"
+                    tabindex="0">
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/trung-cap/tin-hoc-ung-dung-1" title="Tin học ứng dụng">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/925/tin-h%E1%BB%8Dc-%E1%BB%A9ng-d%E1%BB%A5ng.png" alt="Tin học ứng dụng">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/tin-hoc-ung-dung-1" title="Tin học ứng dụng">Tin học ứng dụng</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/trung-cap/quan-tri-mang-may-tinh-1" title="Quản trị mạng máy tính.">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/285/qu%E1%BA%A3n-tr%E1%BB%8B-m%E1%BA%A1ng-m%C3%A1y-t%C3%ADnh.png" alt="Quản trị mạng máy tính.">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/quan-tri-mang-may-tinh-1" title="Quản trị mạng máy tính.">Quản trị mạng máy tính.</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/trung-cap/ve-thiet-ke-my-thuat-co-tro-giup-bang-may-tinh" title="Vẽ thiết kế mỹ thuật có trợ giúp bằng máy tính.">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/283/v%E1%BA%BD.png" alt="Vẽ thiết kế mỹ thuật có trợ giúp bằng máy tính.">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/ve-thiet-ke-my-thuat-co-tro-giup-bang-may-tinh" title="Vẽ thiết kế mỹ thuật có trợ giúp bằng máy tính.">Vẽ thiết kế mỹ thuật có trợ giúp bằng máy tính.</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/trung-cap/ky-thuat-sua-chua-lap-rap-may-tinh-1" title="Kỹ thuật sửa chữa, lắp ráp máy tính">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/284/k%E1%BB%B9-thu%E1%BA%ADt-sc.png" alt="Kỹ thuật sửa chữa, lắp ráp máy tính">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/ky-thuat-sua-chua-lap-rap-may-tinh-1" title="Kỹ thuật sửa chữa, lắp ráp máy tính">Kỹ thuật sửa chữa, lắp ráp máy tính</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="box-item text-center d-flex justify-content-center">
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/trung-cap/ke-toan-doanh-nghiep-1" title="Kế toán doanh nghiệp">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/281/k%E1%BA%BF-to%C3%A1n-doanh-nghi%E1%BB%87p.png" alt="Kế toán doanh nghiệp">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/ke-toan-doanh-nghiep-1" title="Kế toán doanh nghiệp">Kế toán doanh nghiệp</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/trung-cap/thiet-ke-va-quan-ly-website-1" title="Thiết kế và quản lý Website">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/282/thi%E1%BA%BFt-k%E1%BA%BF.png" alt="Thiết kế và quản lý Website">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/thiet-ke-va-quan-ly-website-1" title="Thiết kế và quản lý Website">Thiết kế và quản lý Website</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/trung-cap/cong-nghe-ky-thuat-dien-tu-truyen-thong-2" title="Công nghệ kỹ thuật điện tử, truyền thông">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/280/c%C3%B4ng-ngh%E1%BB%87-kt.png" alt="Công nghệ kỹ thuật điện tử, truyền thông">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/trung-cap/cong-nghe-ky-thuat-dien-tu-truyen-thong-2" title="Công nghệ kỹ thuật điện tử, truyền thông">Công nghệ kỹ thuật điện tử, truyền thông</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="tab-pane" id="pills-lienthong" role="tabpanel" aria-labelledby="pills-lienthong-tab"
+                    tabindex="0">
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-thong-tin-1" title="Công Nghệ Thông Tin">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/293/c%C3%B4ng-ngh%E1%BB%87-th%C3%B4ng-tin.png" alt="Công Nghệ Thông Tin">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-thong-tin-1" title="Công Nghệ Thông Tin">Công Nghệ Thông Tin</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/quan-tri-kinh-doanh-quan-tri-digital-marketing-3" title="Quản Trị Kinh Doanh- Quản Trị Digital Marketing">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/294/z3583626701228_d0e59d11bd6be624e0dae18a4cafc41e.jpg" alt="Quản Trị Kinh Doanh- Quản Trị Digital Marketing">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/quan-tri-kinh-doanh-quan-tri-digital-marketing-3" title="Quản Trị Kinh Doanh- Quản Trị Digital Marketing">Quản Trị Kinh Doanh- Quản Trị Digital Marketing</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/thiet-ke-do-hoa-2" title="Thiết Kế Đồ Họa">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/295/thi%E1%BA%BFt-k%E1%BA%BF-%C4%91%E1%BB%93-h%E1%BB%8Da.png" alt="Thiết Kế Đồ Họa">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/thiet-ke-do-hoa-2" title="Thiết Kế Đồ Họa">Thiết Kế Đồ Họa</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/ke-toan-2" title="Kế Toán">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/296/k%E1%BA%BF-to%C3%A1n.png" alt="Kế Toán">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/ke-toan-2" title="Kế Toán">Kế Toán</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="box-item">
+                        <div class="row row-cols-lg-4 row-cols-md-3 row-cols-1 g-4">
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/logistics-1" title="Logistics">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/297/logistics.png" alt="Logistics">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/logistics-1" title="Logistics">Logistics</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/he-thong-thong-tin-3" title="Hệ Thống Thông Tin">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/298/h%E1%BB%87-th%E1%BB%91ng-th%C3%B4ng-tin.png" alt="Hệ Thống Thông Tin">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/he-thong-thong-tin-3" title="Hệ Thống Thông Tin">Hệ Thống Thông Tin</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-ky-thuat-may-tinh-1" title="Công Nghệ Kỹ Thuật  Máy Tính">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/299/c%C3%B4ng-ngh%E1%BB%87-k%E1%BB%B9-thu%E1%BA%ADt-m%C3%A1y-t%C3%ADnh.png" alt="Công Nghệ Kỹ Thuật  Máy Tính">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-ky-thuat-may-tinh-1" title="Công Nghệ Kỹ Thuật  Máy Tính">Công Nghệ Kỹ Thuật  Máy Tính</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+                            <div class="col">
+                                <div class="card">
+                                    <div class="enroll-item">
+                                        <div class="img-src shine">
+                                          <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/truyen-thong-va-mang-may-tinh-2" title="Truyền Thông Và Mạng Máy Tính">
+                                            <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/313/truy%E1%BB%81n-th%C3%B4ng-v%C3%A0-mmt.png" alt="Truyền Thông Và Mạng Máy Tính">
+                                          </a>
+                                        </div>
+                                        <div class="txt">
+                                          <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/truyen-thong-va-mang-may-tinh-2" title="Truyền Thông Và Mạng Máy Tính">Truyền Thông Và Mạng Máy Tính</a>
+                                        </div>
+                                      </div>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="box-item text-center d-flex justify-content-center">
+                        <div class="card mx-3">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-ky-thuat-dien-tu-truyen-thong-3" title="Công nghệ kỹ thuật điện tử, truyền thông">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/300/cnkt,-%C4%91ttt.png" alt="Công nghệ kỹ thuật điện tử, truyền thông">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/cong-nghe-ky-thuat-dien-tu-truyen-thong-3" title="Công nghệ kỹ thuật điện tử, truyền thông">Công nghệ kỹ thuật điện tử, truyền thông</a>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="enroll-item">
+                                <div class="img-src shine">
+                                  <a href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/tai-chinh-ngan-hang-1" title="Tài chính – Ngân hàng">
+                                    <img width="100%" src="https://cdn.itc.edu.vn/Data/Sites/1/News/301/t%C3%A0i-ch%C3%ADnh,ng%C3%A2n-h%C3%A0ng.png" alt="Tài chính – Ngân hàng">
+                                  </a>
+                                </div>
+                                <div class="txt">
+                                  <a class="headline blue" href="https://itc.edu.vn/dao-tao/lien-thong/lien-thong-cao-dang/tai-chinh-ngan-hang-1" title="Tài chính – Ngân hàng">Tài chính – Ngân hàng</a>
+                                </div>
+                              </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- Thông báo tuyển sinh  -->
+     <section class="alert-study">
+        <div class="container-lg">
+            <div class="title text-center py-4">
+                <h1><span>Thông Báo Tuyển Sinh</span></h1>
+              </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                  <div class="card">
+                    <img class="card-img-top" src="./images/tuyensinh.png " title="Lễ Ký Kết MOU" />
+                    <div class="card-body">
+                      <span>15/8/2024</span>
+                      <p class="pt-2">
+                        <a class="title" href="https://itc.edu.vn/thong-tin/thong-bao-hoc-vu/thong-bao-chinh-sach-uu-dai-nhap-hoc-danh-cho-sinh-vien-khoa-24-dot-4-thang-92024" title="Thông báo chính sách ưu đãi nhập học dành cho sinh viên khóa 24 (đợt 4 - tháng 9/2024)">Thông báo chính sách ưu đãi nhập học dành cho sinh viên khóa 24 (đợt 4 - tháng 9/2024)</a>
+                      </p>
+                     
+                    </div>
+                  </div>
+  
+                </div>
+                <div class="col-lg-6 ">
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 side-news align-items-center">
+                      <div class="col-md-4 imgs">
+                        <img src="./images/tuyensinh1.png" class="img-fluid rounded-start" alt="pic">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span>26/07/2024</span>
+                          <p class="pt-2">
+                            <a class="title-side-news" href="https://itc.edu.vn/thong-tin/thong-bao-hoc-vu/thong-bao-ve-viec-ho-tro-chinh-sach-nhap-hoc-danh-cho-sinh-vien-khoa-24-dot-3-thang-82024" title="Thông báo về việc hỗ trợ chính sách nhập học dành cho sinh viên khóa 24 (đợt 3 - tháng 8/2024)">Thông báo về việc hỗ trợ chính sách nhập học dành cho sinh viên khóa 24 (đợt 3 - tháng 8/2024)</a>
+                          </p>
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 side-news align-items-center">
+                      <div class="col-md-4 imgs">
+                        <img src="./images/tuyensinh2.png" class="img-fluid rounded-start" alt="pic">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span>05/07/2024</span>
+                          <p class="pt-2">
+                            <a class="title-side-news" href="https://itc.edu.vn/thong-tin/tin-hoi-thao-doanh-nghiep-1/cong-bo-danh-sach-trung-tuyen-online-xet-hoc-ba-dot-2-nam-2024" title="Công bố danh sách Trúng tuyển online - Xét học bạ đợt 2 năm 2024">Công bố danh sách Trúng tuyển online - Xét học bạ đợt 2 năm 2024</a>
+                          </p>
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 side-news align-items-center">
+                      <div class="col-md-4 imgs">
+                        <img src="./images/tuyensinh3.png" class="img-fluid rounded-start" alt="pic">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span>22/05/2024</span>
+                          <p class="pt-2">
+                            <a class="title-side-news" href="https://itc.edu.vn/thong-tin/tin-hoi-thao-doanh-nghiep-1/bat-mi-nhung-uu-diem-noi-bat-cua-cao-dang-chat-luong-cao-nganh-cong-nghe-thong-tin-tai-itc" title="Bật mí những ưu điểm nổi bật của Cao đẳng Chất lượng cao ngành Công nghệ thông tin tại ITC">Bật mí những ưu điểm nổi bật của Cao đẳng Chất lượng cao ngành Công nghệ thông tin tại ITC</a>
+                          </p>
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+  
+                  <div class="card mb-3" style="max-width: 540px;">
+                    <div class="row g-0 side-news align-items-center">
+                      <div class="col-md-4 imgs">
+                        <img src="./images/tuyensinh4.png" class="img-fluid rounded-start" alt="pic">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <span>08/03/2024</span>
+                          <p class="pt-2">
+                            <a class="title-side-news" href="https://itc.edu.vn/thong-tin/tin-hoi-thao-doanh-nghiep-1/tuyen-sinh-chuong-trinh-dao-tao-song-bang-viet-nam-uc-nganh-cong-nghe-thong-tin" title="Tuyển sinh đào tạo song bằng (Việt Nam – Úc) hệ Cao đẳng chính quy ngành Công nghệ thông tin">Tuyển sinh đào tạo song bằng (Việt Nam – Úc) hệ Cao đẳng chính quy ngành Công nghệ thông tin</a>
+                          </p>
+  
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+     </section>
+
+
+
+     <footer>
+        <!-- place footer here -->
+        <div class="container-lg">
+          <div class="foot-img text-center">
+            <img src="./images/footer.png" width="100%" alt="logo">
+          </div>
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="footer-name">
+                <span>Liên Lạc</span>
+              </div>
+              <ol class="footer-list">
+                <li><em class="fas fa-map-marker-alt"></em>
+                  <p><strong>Địa chỉ: </strong>
+                    <span>12 Trịnh Đình Thảo, Phường Hòa Thạnh,<br>
+                      Quận Tân Phú, Thành phố Hồ Chí Minh</span>
+                  </p>
+                </li>
+                <li>
+                  <div class="icon"><i class="fa-solid fa-tty"></i></div>
+                  <p><strong>Phone</strong><span>(028) 397 349 83 - (028) 386 050 03</span></p>
+                </li>
+                <li><em class="fas fa-phone-alt phone"></em>
+                  <p><strong>Hotline/Zalo:&nbsp;</strong><span>093 886 1080 - 097 500 5356</span></p>
+                </li>
+                <li><em class="fas fa-envelope"></em>
+                  <p><strong>Email</strong><span>
+                      info@itc.edu.vn<br>
+                      tuyensinh@itc.edu.vn</span></p>
+                </li>
+              </ol>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-name">
+                <span>Tiện ích khác</span>
+              </div>
+              <ol class="footer-list-mid">
+                <li><a href="#">Cổng thông tin sinh viên</a></li>
+                <li><a href="#">Sổ tay sinh viên</a></li>
+                <li><a href="#">Tra cứu văn bằng</a></li>
+                <li><a href="#">Tuyển dụng nhân sự</a></li>
+                <li><a href="#">Thư viện</a></li>
+                <li><a href="#">Liên hệ</a></li>
+              </ol>
+            </div>
+            <div class="col-lg-4">
+              <div class="footer-name-right">
+                <span>Liên kết với chúng tôi</span>
+              </div>
+              <div class="social-icon d-flex align-items-center">
+                <a href="#"><i style="color: #3875e9;" class="fab fa-facebook-square"></i></a>
+                <a href="#"><i style="color: #ea3322;" class="fab fa-youtube"></i></a>
+                <a href="#"><i style="color: #000;" class="fa-brands fa-tiktok"></i></a>
+                <a href="#"><img src="./images/zalo.png" width="35" height="40" alt=""></a>  
+    
+            </div>
+    
+          </div>
+        </div>
+      </footer>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+
+    <!-- jquery and bootstrap 3.4.1 js  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <!-- swiper  -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+</body>
+
+</html>
