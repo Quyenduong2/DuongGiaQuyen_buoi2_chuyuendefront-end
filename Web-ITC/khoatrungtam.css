@@ -212,6 +212,29 @@ footer a {
 }
 
 @media (max-width: 575.98px){
+  .title-header-itc{
+    text-align: center;
+  }
+
+  .login-sv {
+    text-align: center !important;
+  }
+
+  .navbar-nav .dropdown-menu{
+    position: static;
+    width: 100%;
+    text-align: center;
+    box-shadow: none;
+  }
+
+  
+
+  .navbar-nav .dropdown-menu li a{
+    border-bottom: 1px solid rgb(0, 0, 0,0.1);
+    width: 200px;
+    margin: auto;
+  }
+
   .foot-img img {
     width: 100% !important;
   }
